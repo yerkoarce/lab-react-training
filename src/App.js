@@ -4,7 +4,8 @@ import Greetings from './components/Greetings'
 import Random from './components/Random'
 import BoxColor from './components/BoxColor'
 import CreditCard from './components/CreditCard'
-import Rating from './components/Rating';
+import Rating from './components/Rating'
+import DriverCard from './components/DriverCard'
 
 function App() {
   return (
@@ -38,7 +39,16 @@ function App() {
         color="white"
       />
       <Rating>4.4</Rating>
-      
+      <DriverCard
+        name="Dara Khosrowshahi"
+        rating={4.9}
+        img="https://ubernewsroomapi.10upcdn.com/wp-content/uploads/2017/09/Dara_ELT_Newsroom_1000px.jpg"
+        car={{
+          model: "Audi A3",
+          licensePlate: "BE33ER"
+        }
+      }
+/>
     </>
   );
 }
