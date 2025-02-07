@@ -6,6 +6,6 @@ export default function Random({ min, max }) {
   }
 
   return (
-    <p>{getNumberText}</p>
+    <p style={{border: '1px solid #000', margin: '10px', padding: '0 10px'}}>{getNumberText(min, max)}</p>
   )
 }

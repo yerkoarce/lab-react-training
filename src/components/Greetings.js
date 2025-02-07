@@ -13,6 +13,6 @@ export default function Greetings({ lang, children}) {
   }
 
   return (
-    <p>{greting} {children}</p>
+    <p style={{border: '1px solid #000', margin: '10px', padding: '0 10px'}}>{greting(lang)} {children}</p>
   )
 }
