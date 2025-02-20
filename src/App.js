@@ -10,6 +10,7 @@ import LikeButton from './components/LikeButton'
 import ClickablePicture from './components/ClickablePicture'
 import maxImg from './assets/images/maxence.png'
 import maxImgClicked from './assets/images/maxence-glasses.png'
+import Dice from './components/Dice';
 
 function App() {
   return (
@@ -57,6 +58,7 @@ function App() {
         img={maxImg}
         imgClicked={maxImgClicked}
       />
+      <Dice />
     </>
   );
 }
