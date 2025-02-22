@@ -12,6 +12,7 @@ import maxImg from './assets/images/maxence.png'
 import maxImgClicked from './assets/images/maxence-glasses.png'
 import Dice from './components/Dice';
 import Carousel from './components/Carousel';
+import NumbersTable from './components/NumbersTable';
 
 function App() {
   return (
@@ -67,6 +68,9 @@ function App() {
         'https://randomuser.me/api/portraits/women/2.jpg',
         'https://randomuser.me/api/portraits/men/2.jpg'
         ]}
+      />
+      <NumbersTable 
+        limit={10}
       />
     </>
   );
