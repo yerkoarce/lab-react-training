@@ -13,6 +13,7 @@ import maxImgClicked from './assets/images/maxence-glasses.png'
 import Dice from './components/Dice';
 import Carousel from './components/Carousel';
 import NumbersTable from './components/NumbersTable';
+import RGBColorPicker from './components/RGBColorPicker';
 
 function App() {
   return (
@@ -72,6 +73,7 @@ function App() {
       <NumbersTable 
         limit={10}
       />
+      <RGBColorPicker />
     </>
   );
 }
